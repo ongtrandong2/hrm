@@ -103,8 +103,6 @@ public class BangChamCongForm1 extends JPanel {
         titelLabel.setBounds(5, 5, 300, 24);
         panelFeature.add(titelLabel);
 
-
-
      // label find
         label_Find = new JLabel("");
         label_Find.setBounds(245, 38, 28, 26);
@@ -129,7 +127,6 @@ public class BangChamCongForm1 extends JPanel {
                 }
             }
         });
-
 
         // panel filter
         panelFilter = new JPanel();
@@ -191,10 +188,6 @@ public class BangChamCongForm1 extends JPanel {
         panelFilter.add(cbbFilterYear);
 		
         /* ------------------------------------------------------------------------------ */
-
-
-        
-        
 
 
         // button thêm
