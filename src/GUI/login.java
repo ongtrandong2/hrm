@@ -98,7 +98,7 @@ public class login extends JFrame{
 		JPanel contentPane = new JPanel();
 		contentPane.setBounds(2,2,1096,596);
 		contentPane.setLayout(null);
-		this.add(contentPane);
+		getContentPane().add(contentPane);
 		
 		
 		JPanel panelRight = new JPanel();
@@ -116,7 +116,7 @@ public class login extends JFrame{
 		JPanel panelLogo = new JPanel();
 		panelLogo.setBounds(0,0,600,550);
 		panelLogo.setLayout(null);
-		panelLogo.setBackground(Color.decode("#00a8ff"));
+		panelLogo.setBackground(Color.PINK);
 		contentPane.add(panelLogo);
 		
         JLabel wellCome= new JLabel("WELCOME");
@@ -136,14 +136,14 @@ public class login extends JFrame{
         label_1.setFont(new Font("Arial",0,30));
         label_1.setBounds(0, 0, 50, 50);
         label_1.setOpaque(true);
-        label_1.setBackground(Color.decode("#00a8ff"));
+        label_1.setBackground(Color.PINK);
         panel_logo_1.add(label_1);
 
         JLabel label_2 = new JLabel();
         label_2.setFont(new Font("Arial",0,30));
         label_2.setForeground(Color.white);
         label_2.setOpaque(true);
-        label_2.setBackground(Color.decode("#00a8ff"));
+        label_2.setBackground(Color.PINK);
         label_2.setBounds(50, 0, 550, 50);
         panel_logo_1.add(label_2);
         label_2.setBorder(null);

@@ -28,19 +28,19 @@ public class myHeader extends JPanel{
 	
 	public void init() {
 		this.setLayout(null);
-		this.setBackground(Color.decode("#2980b9"));
+		this.setBackground(Color.PINK);
 		JLabel lbUser1 = new JLabel();
 		lbUser1.setBounds(2,2,55,40);
 		lbUser1.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/assets/img/mylogo4.png")).getImage().getScaledInstance(lbUser1.getWidth(), lbUser1.getHeight(), Image.SCALE_DEFAULT)));
 		this.add(lbUser1);
 		
-		JLabel l1 = new JLabel("HRMSystem");
+		JLabel l1 = new JLabel("HRMG24");
 		l1.setBounds(60,2,200,30);
 		l1.setFont(new Font("Arial",1,18));
 		l1.setForeground(new Color(255,255,255,240));
 		this.add(l1);
 		
-		JLabel l2 = new JLabel("Version 1.0.2");
+		JLabel l2 = new JLabel("Version 1.0.0");
 		l2.setBounds(60,20,100,30);
 		l2.setFont(new Font("Arial",0,12));
 		l2.setForeground(new Color(255,255,255,240));
@@ -83,28 +83,6 @@ public class myHeader extends JPanel{
 		separate.setBounds(1228,11,1,24);
 		separate.setBackground(new Color(255,255,255,100));
 		this.add(separate);
-		 
-		
-		JLabel notification = new JLabel();
-		notification.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/assets/img/notification.png")).getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT)));
-		notification.setBounds(1120,15,20,20);
-		this.add(notification);
-		
-		
-		JLabel message = new JLabel();
-		message.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/assets/img/message.png")).getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT)));
-		message.setBounds(1175,15,20,20);
-		this.add(message);
-		
-		myNotification numberOfMessage = new myNotification();
-		numberOfMessage.setBounds(1180,10,17,17);
-		numberOfMessage.setNumber(11);
-		this.add(numberOfMessage);
-		
-		myNotification numberOfNotify = new myNotification();
-		numberOfNotify.setBounds(1128,10,17,17);
-		numberOfNotify.setNumber(6);
-		this.add(numberOfNotify);
 		JButton btnClose = new JButton();
 		btnClose.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/assets/img/close_app.png")).getImage().getScaledInstance(18, 18, Image.SCALE_AREA_AVERAGING)));
 		btnClose.setBounds(1290,13,18,18);
@@ -125,10 +103,6 @@ public class myHeader extends JPanel{
 				btnClose.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/assets/img/close_app.png")).getImage().getScaledInstance(18, 18, Image.SCALE_AREA_AVERAGING)));
 			}
 		});
-		this.setComponentZOrder(numberOfMessage, 0);
-		this.setComponentZOrder(message, 1);
-		this.setComponentZOrder(numberOfNotify, 1);
-		this.setComponentZOrder(notification, 2);
 	}
 	public void changeAvatar(String file) {
 		lbUser.setIcon(new ImageIcon(new ImageIcon(getClass().getResource("/assets/img/user_img/"+file)).getImage().getScaledInstance(34,34,Image.SCALE_AREA_AVERAGING)));
