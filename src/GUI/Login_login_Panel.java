@@ -61,7 +61,7 @@ public class Login_login_Panel extends JPanel{
 		this.setBackground(Color.white);
 		
 		JLabel label = new JLabel("LOGIN");
-		label.setFont(new Font("Arial",Font.PLAIN,23));
+		label.setFont(new Font("Arial", Font.BOLD, 23));
 		label.setBounds(160,70,200,20);
 		this.add(label);
 		
@@ -78,18 +78,18 @@ public class Login_login_Panel extends JPanel{
 		
 		
 		btn = new JButton("LOGIN");
-		btn.setFont(new Font("Arial",Font.PLAIN,15));
+		btn.setFont(new Font("Arial", Font.BOLD, 16));
 		btn.setForeground(Color.white);
 		btn.setBounds(50,340,300,40);
 		btn.setBorderPainted(false);
 		btn.setFocusPainted(false);
-		btn.setBackground(Color.decode("#4bcffa"));
+		btn.setBackground(Color.PINK);
 		btn.addMouseListener(new MouseAdapter() {
 			public void mouseExited(MouseEvent e) {
-				btn.setBackground(Color.decode("#4bcffa"));
+				btn.setBackground(Color.decode("#ffc0cb"));
 			}
 			public void mouseEntered(MouseEvent e) {
-				btn.setBackground(Color.decode("#00a8ff"));
+				btn.setBackground(Color.decode("#ffaccb"));
 			}
 
 		});
