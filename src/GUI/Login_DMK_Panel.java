@@ -69,11 +69,11 @@ public class Login_DMK_Panel extends JPanel {
 		
 
 		lb2 = new JLabel("XÁC NHẬN",JLabel.CENTER);
-		lb2.setFont(new Font("Arial",Font.PLAIN,15));
+		lb2.setFont(new Font("Arial", Font.BOLD, 16));
 		lb2.setOpaque(true);
 		lb2.setForeground(Color.white);
 		lb2.setBounds(50,300,300,40);
-		lb2.setBackground(Color.decode("#4bcffa"));
+		lb2.setBackground(Color.PINK);
 		this.add(lb2);
 		
 		

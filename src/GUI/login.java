@@ -80,6 +80,7 @@ public class login extends JFrame{
 		quenMatKhauForm= new Login_QMK_Panel();
 		otpForm= new Login_OTP_Panel();
 		loginForm= new Login_login_Panel();
+		loginForm.getLb1().setText("Quên mật Khẩu");
 		doimatkhauForm = new Login_DMK_Panel();
 		init();
 	}
@@ -237,9 +238,11 @@ public class login extends JFrame{
 		diChuyenChuongTrinh dc = new diChuyenChuongTrinh(this);
 		this.addMouseMotionListener(dc);
 
+		Login_login_Mouse lq= new Login_login_Mouse(this);
+		getLlp().getLb1().addMouseListener(lq);
+		
 //		Login_login_Mouse lq= new Login_login_Mouse(this);
 //		getLlp().getLb1().addMouseListener(lq);
-
 
 		Login_QMK_back_Mouse lqpm= new Login_QMK_back_Mouse(this);
 		getQmk().getBack().addMouseListener(lqpm);

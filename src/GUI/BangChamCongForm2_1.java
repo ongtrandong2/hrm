@@ -49,7 +49,6 @@ public class BangChamCongForm2_1 extends JPanel {
     private JButton btnThem, btnReset;
 
     private Font font, fontB;
-    
 
     private Object[][] data;
     private String[] title= {"STT","Nhân viên","Trạng thái"};
@@ -476,10 +475,7 @@ public class BangChamCongForm2_1 extends JPanel {
 					System.out.println("You have clicked!");
 					if(i.getBackground().equals(color_Nghi)) {
 						i.setText("NGHỈ");
-						
 					}
-					
-
 					
 					if(i.getBackground().equals(color_Tre)) {
 						i.setText("TRỄ");

@@ -36,8 +36,7 @@ public class BangChamCongForm extends JPanel {
 
     public void show(int x) {
         switch (x) {
-            case 0 -> 
-            {
+            case 0 -> {
                 this.form1.setVisible(true);
                 this.form2.setVisible(false);
                 this.form3.setVisible(false);

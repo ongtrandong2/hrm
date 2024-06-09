@@ -30,9 +30,10 @@ public class SendMail {
 		 Random rand = new Random();
 	        for (int i = 0; i < 6; i++) {
 	             str= str+(rand.nextInt(9)); // Số ngẫu nhiên từ 0 - 9    
+//	        	str= str+i; // 12345  
 	    }
-		final String user = "hokhang2k3@gmail.com";// gmail người gửi
-		final String pass = "kdatunbqndprrksv";
+		final String user = "21521957@gm.uit.edu.vn";// gmail người gửi
+		final String pass = "prsfltjkjqgemdnj";
 		String sub = "OTP HRM";
 		String msg = str+ " là mã xác thực tài khoản của bạn";
 		Properties props = System.getProperties();

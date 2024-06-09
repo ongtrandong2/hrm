@@ -71,7 +71,6 @@ public class AccountForm extends JPanel{
 	public void init() {
 		this.setLayout(null);
 		
-		
 		JPanel panelFeature = new JPanel();
 		panelFeature.setBounds(10,10,1080,46);
 		panelFeature.setBackground(Color.white);
@@ -84,14 +83,7 @@ public class AccountForm extends JPanel{
 		titelLabel.setBounds(10,10,250,25);
 		panelFeature.add(titelLabel);
 
-		
-		
-		
-		
-		
-		
-		
-		
+
 		JPanel panelTaiKhoan = new JPanel();
 		panelTaiKhoan.setLayout(null);
 		panelTaiKhoan.setBackground(Color.white);
