@@ -28,10 +28,10 @@ public class Login_OTP_XacThuc_mouse implements MouseListener{
 		JOptionPane.showMessageDialog(login, "Mã OTP không chính xác");
 	}
 	public void mouseExited(MouseEvent e) {
-		login.getLop().getLb2().setBackground(Color.decode("#4bcffa"));
+		login.getLop().getLb2().setBackground(Color.decode("#ffc0cb"));
 	}
 	public void mouseEntered(MouseEvent e) {
-		login.getLop().getLb2().setBackground(Color.decode("#00a8ff"));
+		login.getLop().getLb2().setBackground(Color.decode("#ffaccb"));
 	}
 
 	@Override

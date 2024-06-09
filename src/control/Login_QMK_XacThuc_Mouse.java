@@ -44,12 +44,12 @@ public class Login_QMK_XacThuc_Mouse extends MouseAdapter{
 	@Override
 	public void mouseEntered(MouseEvent e) {
 		// TODO Auto-generated method stub
-		login.getQmk().getLb2().setBackground(Color.decode("#00a8ff"));
+		login.getQmk().getLb2().setBackground(Color.decode("#ffc0cb"));
 
 	}
 	@Override
 	public void mouseExited(MouseEvent e) {
 		// TODO Auto-generated method stub
-		login.getQmk().getLb2().setBackground(Color.decode("#4bcffa"));
+		login.getQmk().getLb2().setBackground(Color.decode("#ffaccb"));
 	}
 }

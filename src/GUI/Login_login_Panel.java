@@ -111,6 +111,22 @@ public class Login_login_Panel extends JPanel{
 //			}
 //		});
 //		this.add(lb1);
+		lb1 = new JLabel("Đổi mật Khẩu");
+		lb1.setBounds(160,440,100,20);
+		lb1.setFont(new Font("Arial",Font.PLAIN,13));
+		lb1.setForeground(new Color(0,0,0,100));
+		lb1.addMouseListener(new MouseAdapter() {
+			public void mouseExited(MouseEvent e) {
+				lb1.setForeground(new Color(0,0,0,100));
+				repaint();
+			}
+			public void mouseEntered(MouseEvent e) {
+				lb1.setForeground(Color.decode("#00a8ff"));
+				
+				repaint();
+			}
+		});
+		this.add(lb1);
 
 		
 		btnClose = new JButton();

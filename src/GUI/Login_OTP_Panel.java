@@ -103,7 +103,7 @@ public class Login_OTP_Panel extends JPanel{
 		this.setLayout(null);
 		ArrLabel = new ArrayList<JLabel>();
 		this.setBackground(Color.white);
-		Color backGroundOTP = Color.decode("#dfe4ea");
+		Color backGroundOTP = Color.pink;
 		a= new JLabel();
 		a.setBounds(25, 110, 50, 70);
 		a.setHorizontalAlignment(JTextField.CENTER);
@@ -212,7 +212,7 @@ public class Login_OTP_Panel extends JPanel{
 		lb2.setOpaque(true);
 		lb2.setForeground(Color.white);
 		lb2.setBounds(50,225,300,40);
-		lb2.setBackground(Color.decode("#4bcffa"));
+		lb2.setBackground(Color.PINK);
 		
 		this.add(lb2);
 		this.setVisible(false);

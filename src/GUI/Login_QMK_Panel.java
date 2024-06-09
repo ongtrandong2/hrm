@@ -78,7 +78,7 @@ public class Login_QMK_Panel extends JPanel {
 		lb2.setOpaque(true);
 		lb2.setForeground(Color.white);
 		lb2.setBounds(50,300,300,40);
-		lb2.setBackground(Color.decode("#4bcffa"));
+		lb2.setBackground(Color.PINK);
 		this.add(lb2);
 		
 		

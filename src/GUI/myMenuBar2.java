@@ -38,6 +38,7 @@ public class myMenuBar2 extends JPanel{
 	public String iconMenu1Use[] = {};
 	public String iconMenu2Use[] = {};
 	public myMenuBar2(Color color1, Color color2) {
+		setBackground(Color.LIGHT_GRAY);
 		this.colorTop = color1;
 		this.colorBottom = color2;
 		init();
@@ -63,7 +64,7 @@ public class myMenuBar2 extends JPanel{
 		panelName.setBackground(new Color(0,0,0,0));
 		panelName.setBounds(8,90,195,30);
 		this.add(panelName);
-		labelName = new JLabel("Lê Quan Phát",JLabel.CENTER);
+		labelName = new JLabel("Trần Đông Đông",JLabel.CENTER);
 		labelName.setFont(new Font("sansserif",1,14));
 		labelName.setForeground(new Color(0,0,0,160));
 		panelName.add(labelName,BorderLayout.CENTER);
