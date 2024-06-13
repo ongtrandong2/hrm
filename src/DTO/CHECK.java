@@ -83,7 +83,7 @@ public class CHECK {
 	}
 	public static boolean checkCMND(String cmnd) {
 		int size = cmnd.length();
-		if(size!=9) {
+		if(size!=12) {
 			return false;
 		}
 		for(int i=0;i<size;i++) {
@@ -252,7 +252,7 @@ public class CHECK {
 			return false;
 		}
 		if(!CHECK.checkCMND(arr[14])) {
-			app.showMessage("Vui lòng kiểm tra lại số chứng minh nhân dân! \nChứng minh dân nhân có 9 chữ số!");
+			app.showMessage("Vui lòng kiểm tra lại số chứng minh nhân dân! \nChứng minh dân nhân có 12 chữ số!");
 			return false;
 		}
 		if(!CHECK.checkSalary(arr[27])) {
